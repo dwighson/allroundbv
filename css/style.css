@@ -174,7 +174,7 @@ h3 {
     }
     p.info {
         width: 80%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-top: 30px;
         min-width: 300px;
     }
