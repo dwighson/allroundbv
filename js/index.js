@@ -26,7 +26,7 @@
                 $('input, textarea').val('')
                 myform.find("button").text("Verzend");
             }, function(err) {
-                alert("Het verzienden van de email is mislukt!\r\n Response:\n " + JSON.stringify(err));
+                alert("Het verzienden van de email is mislukt!\r\n Response:\n " + JSON.stringify(err.txt));
                 myform.find("button").text("Verzend");
             });
         return false;
