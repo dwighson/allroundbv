@@ -69,8 +69,8 @@ b {
     font-weight: lighter;
 }
 
-a[href^=tel] {
-    text-decoration: inherit;
+a {
+    text-decoration: none;
     color: white;
 }
 
