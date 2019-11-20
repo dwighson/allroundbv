@@ -69,6 +69,11 @@ b {
     font-weight: lighter;
 }
 
+a[href^=tel] {
+    text-decoration: inherit;
+    color: white;
+}
+
 p.info {
     font-weight: normal;
     max-width: 540px;
